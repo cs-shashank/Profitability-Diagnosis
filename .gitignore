@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.venv/
+.ipynb_checkpoints/
+~$*.xlsx
+data/raw/
+data/clean/
+
