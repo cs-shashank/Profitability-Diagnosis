@@ -15,3 +15,12 @@
 - 2025 to 2026 total profit +13,261: 11 sub-categories gained 28,512 (Copiers +7,297, Accessories +6,008), 6 lost 15,251 (Machines -5,738, Tables -5,142, Binders -2,708).
 - Binders and Tables: average discount stable (Binders about 74%, Tables about 39%); 2026 losses rose because more was sold at those discounts (Binders high-discount sales +86%, Tables +65%), not deeper discounts.
 - Machines: high-discount loss flat; total fell because low-discount profit fell about 5.8K (derived); cause not explained by data.
+## Sensitivity check (8 most extreme rows removed: 3 Canon copiers, 5 loss-making rows)
+- Overall margin 12.56% -> 12.92%; profit 292,297 -> 292,608.
+- Profit still grew every year. 2026 margin slip persists but is smaller (13.66% to 13.31%, vs 13.46% to 12.87%).
+- Binders high-discount loss still much higher in 2026 than 2025 (12,917 vs 6,949); Tables unaffected.
+- Conclusion: findings hold in direction; the extreme rows exaggerate the 2026 slip by about 40%.
+## Profit at stake (illustrative, sales held constant)
+- Rows above 20% discount hold a net loss of about 136,021 (1,415 rows).
+- Reducing that loss by 25% / 50% / 100% would lift margin from 12.56% to 14.03% / 15.49% / 18.41%.
+- Not a forecast: lower discounts may reduce volume; no cost or elasticity data.
