@@ -8,6 +8,5 @@ SELECT region,
        ROUND(SUM(profit), 2)                    AS profit,
        ROUND(SUM(profit) / SUM(sales) * 100, 2) AS margin_pct
 FROM orders
-WHERE country_region = 'United States'
 GROUP BY region, discount_group
 ORDER BY discount_group, region;

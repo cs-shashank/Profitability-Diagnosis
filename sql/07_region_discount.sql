@@ -7,6 +7,5 @@ SELECT region,
        ROUND(100 * SUM(CASE WHEN discount > 0.20 THEN sales END) / SUM(sales), 1) AS pct_sales_over_20,
        ROUND(SUM(profit) / SUM(sales) * 100, 2)          AS margin_pct
 FROM orders
-WHERE country_region = 'United States'
 GROUP BY region
 ORDER BY margin_pct;
