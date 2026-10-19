@@ -86,7 +86,7 @@ Profitability-Diagnosis/
 
 1. Download **Sample - Superstore** (the Orders sheet) from Tableau's sample data page and save it as
    `data/raw/Superstore.xls`.
-2. Create a virtual environment and install: `pandas`, `matplotlib`, `openpyxl`, `xlrd`, `sqlalchemy`, `pymysql`, `jupyter`.
+2. Create a virtual environment and run pip install -r requirements.txt.
 3. Run `notebook/01_data_profiling.ipynb`, then `02_data_cleaning.ipynb`. The assertions in the cleaning
    notebook check 10,194 rows, sales 2,326,534.35 and profit 292,296.81.
 4. In MySQL create a database named `profitability`, run `sql/01_create_table.sql`, then run
